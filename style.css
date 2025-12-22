@@ -724,8 +724,7 @@ hr {
 
 .barscedule {
   margin-bottom: 1rem;
-  width: 80.5rem;
-  height: 6rem;
+  width: 94%;
   background-color: tomato;
   margin-left: 2rem;
   display: flex;
@@ -743,11 +742,32 @@ hr {
   font-weight: 500;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-  color: #3c3e41;
+  /* color: #3c3e41; */
+  height: 6rem;
+  /* background-color: red; */
+  width: 25%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.barscedule a:hover {
+  box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px,
+    rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
 }
 
 .mmcol {
   color: red;
+  box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px,
+    rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+}
+
+.tyoo {
+  color: red;
+}
+
+.webina {
+  color: black;
 }
 
 .infoscedule {
