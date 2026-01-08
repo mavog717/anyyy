@@ -1077,6 +1077,7 @@ hr {
   width: 97.4%;
   margin-left: 0.7rem;
   border-radius: 10px;
+  margin-bottom: 6rem;
 }
 
 .familysection {
@@ -1109,4 +1110,153 @@ hr {
   margin-left: 12rem;
   padding: 1.5rem 2.3rem;
   font-size: 1rem;
+}
+
+.designersection {
+  width: 88%;
+}
+
+.designersection {
+  margin-bottom: 5rem;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 4rem;
+  margin-bottom: 5rem;
+}
+
+.socials {
+  display: flex;
+  gap: 1.3rem;
+  margin-top: 2rem;
+}
+
+.facebook {
+  width: 65px;
+  height: 65px;
+  background: linear-gradient(to right, #ecf0f3, rgba(255, 255, 255, 0.521));
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.facebook {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.facebook:hover {
+  background: linear-gradient(to right, purple, brown);
+}
+
+.twitter {
+  width: 65px;
+  height: 65px;
+  background: linear-gradient(to right, #ecf0f3, rgba(255, 255, 255, 0.521));
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.twitter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.twitter:hover {
+  background: linear-gradient(to right, purple, brown);
+}
+
+.linkedin {
+  width: 65px;
+  height: 65px;
+  background: linear-gradient(to right, #ecf0f3, rgba(255, 255, 255, 0.521));
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.linkedin {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.linkedin:hover {
+  background: linear-gradient(to right, purple, brown);
+}
+
+.quic h1 {
+  font-size: 20px;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-family: sans-serif;
+  line-height: 22px;
+  color: red;
+  margin-bottom: 2rem;
+}
+
+.quic p {
+  font-size: 19px;
+  font-weight: 400;
+  font-family: sans-serif;
+  margin-bottom: 1rem;
+  color: rgba(0, 0, 0, 0.527);
+}
+
+.reso h1 {
+  font-size: 20px;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-family: sans-serif;
+  line-height: 22px;
+  color: red;
+  margin-bottom: 2rem;
+}
+
+.reso p {
+  font-size: 19px;
+  font-weight: 400;
+  font-family: sans-serif;
+  margin-bottom: 1rem;
+  color: rgba(0, 0, 0, 0.527);
+}
+
+.deve h1 {
+  font-size: 20px;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-family: sans-serif;
+  line-height: 22px;
+  color: red;
+  margin-bottom: 2rem;
+}
+
+.deve p {
+  font-size: 19px;
+  font-weight: 400;
+  font-family: sans-serif;
+  margin-bottom: 1rem;
+  color: rgba(0, 0, 0, 0.527);
+}
+
+.endsection {
+  width: 85%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 7rem;
+}
+
+.loggu {
+  margin-left: 3rem;
+}
+
+.futu {
+  margin-bottom: 3rem;
+}
+
+.endi {
+  display: flex;
+  justify-content: center;
+  font-size: 18px;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 0.527);
 }
