@@ -771,5 +771,118 @@ hr {
 }
 
 .infoscedule {
-  width: 100%;
+  width: 94%;
+  background: linear-gradient(to right, #ecf0f3, rgba(255, 255, 255, 0.521));
+  box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px,
+    rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+  border-radius: 10px;
+  overflow: hidden;
+  height: 80vh;
+  margin-left: 2rem;
+  display: flex;
+}
+
+.leftinfo {
+  width: 52%;
+  padding-left: 4rem;
+  padding-top: 5.5rem;
+}
+
+.leftinfo p {
+  font-size: 16px;
+  font-weight: 400;
+  font-family: sans-serif;
+}
+
+.leftinfo h3 {
+  font-size: 36px;
+  font-weight: 700;
+  font-family: sans-serif;
+  padding: 1.5rem 0;
+}
+
+.rightinfo {
+  width: 45%;
+  height: 100%;
+  background-image: url(https://rainbowit.net/themes/inbio/wp-content/uploads/2023/11/chm-01-min-scaled.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-left: 15.2rem;
+}
+
+.address span {
+  font-size: 16px;
+  font-weight: 700;
+  color: black;
+}
+
+.address p {
+  padding-left: 0.5rem;
+}
+
+.address {
+  display: flex;
+}
+
+.working span {
+  font-size: 16px;
+  font-weight: 700;
+  color: black;
+}
+
+.working p {
+  padding-left: 0.5rem;
+}
+
+.working {
+  display: flex;
+}
+
+.visiting span {
+  font-size: 16px;
+  font-weight: 700;
+  color: black;
+}
+
+.visiting p {
+  padding-left: 0.5rem;
+}
+
+.visiting {
+  display: flex;
+}
+
+.contact span {
+  font-size: 16px;
+  font-weight: 700;
+  color: black;
+}
+
+.contact p {
+  padding-left: 0.5rem;
+}
+
+.contact {
+  display: flex;
+}
+
+.call {
+  display: flex;
+}
+
+.magse {
+  width: 130%;
+  margin-left: 0;
+  margin-top: 3rem;
+  margin-bottom: 2rem;
+  color: gray;
+}
+
+.cam {
+  width: 130%;
+  margin-left: 0;
+  margin: 0.5rem 0;
+  border: none;
+  border-top: 1px dotted gray;
 }
